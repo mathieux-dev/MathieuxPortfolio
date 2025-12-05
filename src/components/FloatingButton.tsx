@@ -6,14 +6,19 @@ export function FloatingButton() {
   };
 
   return (
-    <div className="absolute box-border caret-transparent right-0 bottom-0">
+    <div className="absolute box-border caret-transparent right-4 bottom-4">
       <button 
         type="button" 
         onClick={scrollToTop}
-        className="font-medium items-center bg-transparent caret-transparent inline-flex text-center px-2 py-4 cursor-pointer hover:opacity-80 transition-opacity"
+        className="font-medium items-center bg-green-500/20 hover:bg-green-500/30 backdrop-blur-sm caret-transparent inline-flex text-center p-3 rounded-full cursor-pointer transition-all hover:scale-110 shadow-lg"
         aria-label="Voltar ao topo"
+        title="Rolar um D20 para voltar ao topo"
       >
-        <img alt="Spinning Tardis from Doctor Who" src="https://c.animaapp.com/mfeedx8tJMhHh4/assets/14.gif" className="text-transparent aspect-[auto_100_/_86] box-border max-w-full w-[100px]" />
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-8 h-8 text-green-300">
+          <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+          <path d="M2 17l10 5 10-5"/>
+          <path d="M2 12l10 5 10-5"/>
+        </svg>
       </button>
     </div>
   );
