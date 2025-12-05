@@ -1,6 +1,17 @@
 # Portfolio Profissional
 
-Portfolio pessoal desenvolvido com React e TypeScript, apresentando experiências profissionais, projetos e informações de contato.
+🔗 **[Ver Portfolio Online](https://mathieux-dev.github.io/MathieuxPortfolio/)**
+
+Portfolio pessoal desenvolvido com React e TypeScript, apresentando experiências profissionais, projetos e informações de contato. O site é automaticamente deployado no GitHub Pages através de GitHub Actions sempre que há um push na branch main.
+
+## 🌐 Deploy
+
+O projeto está configurado para deploy automático no GitHub Pages:
+
+- **URL de Produção**: https://mathieux-dev.github.io/MathieuxPortfolio/
+- **Método**: GitHub Actions (workflow em `.github/workflows/deploy.yml`)
+- **Processo**: A cada push na branch `main`, o workflow executa o build do Vite e faz deploy da pasta `dist` no GitHub Pages
+- **Configuração**: O base path `/MathieuxPortfolio/` está configurado no `vite.config.ts` para funcionar corretamente no GitHub Pages
 
 ## 🚀 Tecnologias
 
@@ -8,7 +19,8 @@ Portfolio pessoal desenvolvido com React e TypeScript, apresentando experiência
 - **TypeScript** - Tipagem estática para JavaScript
 - **Vite** - Build tool e dev server
 - **Tailwind CSS** - Framework CSS utilitário
-- **React DOM** - Renderização de componentes React
+- **PostCSS** - Processamento de CSS
+- **Autoprefixer** - Compatibilidade cross-browser
 
 ## 📦 Instalação
 
@@ -33,6 +45,7 @@ npm run build
 - `/src/components` - Componentes React reutilizáveis
 - `/src/data` - Dados de experiências, projetos e navegação
 - `/src/App.tsx` - Componente principal da aplicação
+- `/.github/workflows` - Configuração do GitHub Actions para deploy automático
 
 ## 📫 Contato
 
