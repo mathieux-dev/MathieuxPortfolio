@@ -8,11 +8,6 @@ export default defineConfig({
   plugins: [react()],
   publicDir: "./static",
   base: "/MathieuxPortfolio/",
-  css: {
-    postcss: {
-      plugins: [tailwind()],
-    },
-  },
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "src"),
