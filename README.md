@@ -37,4 +37,4 @@ npm run build
 ## 📫 Contato
 
 - GitHub: [@mathieux-dev](https://github.com/mathieux-dev)
-- LinkedIn: [Matheus Mourão](https://www.linkedin.com/in/matheusvm/)
+- LinkedIn: [Matheus Mourão](https://www.linkedin.com/in/mateus-mourao/)
